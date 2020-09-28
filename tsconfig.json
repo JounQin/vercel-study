@@ -1,0 +1,16 @@
+{
+  "extends": "@1stg/tsconfig/tsconfig",
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "incremental": false,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noEmit": true,
+    "paths": {
+      "*": ["src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
