@@ -1,0 +1,27 @@
+{
+  "name": "vercel-study",
+  "version": "0.1.0",
+  "repository": "git@github.com:JounQin/vercel-study.git",
+  "author": "JounQin <admin@1stg.me>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.5.3",
+    "next-auth": "^3.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@1stg/prettier-config": "^0.10.5",
+    "@1stg/tsconfig": "^0.10.3",
+    "@types/next-auth": "^3.1.8",
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.49",
+    "sass": "^1.26.11",
+    "typescript": "^4.0.3"
+  }
+}
